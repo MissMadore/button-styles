@@ -7,7 +7,69 @@ html {
   box-sizing: inherit;
 }
 
+
+.btn {
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1.125;
+  color: #fff;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #333;
+  display: inline-block;
+}
+
 div {
   padding: .5rem;
   text-align: center;
+}
+
+.btn-primary {
+  background-color: #333;
+  border-color: #333;
+}
+
+.btn-subtle {
+  background-color: #ccc;
+  border-color: #ccc;
+}
+
+.btn-ghost {
+  background-color: #fff;
+  border-color: #000;
+  color: #333;
+}
+
+.btn-warning {
+  background-color: #f33;
+  border-color: #f33;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn-small {
+  font-size:.875rem;
+}
+
+.btn-primary:hover {
+  background-color: #000;
+  border-color: #000;
+}
+
+.btn-subtle:hover {
+  background-color: #666;
+  border-color: #666;
+}
+
+.btn-ghost:hover {
+  background-color: #666;
+  border-color: #666;
+}
+
+.btn-warning:hover {
+  background-color: #933;
+  border-color: #933;
 }
