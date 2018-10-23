@@ -70,5 +70,6 @@ div {
 }
 
 .btn-warning:hover {
-
+  background-color: #933;
+  border-color: #933;
 }
