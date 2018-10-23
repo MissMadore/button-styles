@@ -7,7 +7,6 @@ html {
   box-sizing: inherit;
 }
 
-
 .btn {
   padding: .4em .75em .3em;
   border-radius: 8px;
@@ -51,7 +50,11 @@ div {
 }
 
 .btn-small {
-  font-size:.875rem;
+  font-size: .875rem;
+}
+
+.btn:hover {
+    color: #fff;
 }
 
 .btn-primary:hover {
